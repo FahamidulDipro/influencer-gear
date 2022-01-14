@@ -41,5 +41,27 @@ nav ul li a {
 
 /* First Section design starts */
 
+.container {
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text_container {
+    height: 200px;
+    background-color: gainsboro;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+.image_container {
+    height: 200px;
+    background-color: hotpink;
+    margin: 10px;
+    border: 1px solid blue;
+}
+
 
 /* First Section design ends */
