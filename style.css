@@ -1,0 +1,45 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Header Section design starts */
+
+header {
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    border: 1px solid purple;
+    justify-content: space-between;
+    /* width: 463px;
+    height: 36px; */
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #3A3A3A;
+    font-weight: 600;
+}
+
+.logo p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+/* Header Section design ends */
+
+
+/* First Section design starts */
+
+
+/* First Section design ends */
