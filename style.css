@@ -6,7 +6,7 @@
 /* Header Section design starts */
 
 header {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     display: flex;
     justify-content: space-between;
     padding: 0 41px;
@@ -15,7 +15,7 @@ header {
 nav ul {
     display: flex;
     list-style: none;
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
     justify-content: space-between;
     /* width: 463px;
     height: 36px; */
@@ -43,7 +43,7 @@ nav ul li a {
 /* First Section design starts */
 
 .container {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
@@ -53,7 +53,7 @@ nav ul li a {
 .text_container {
     padding: 10px;
     margin: 10px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .text_container h1 {
@@ -115,7 +115,7 @@ button {
 /* Popular Collection section starts */
 
 .popular_collection {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     padding: 10px;
     justify-content: space-evenly;
     margin: 10px 0;
@@ -132,19 +132,68 @@ button {
 }
 
 .card_container {
-    border: 3px solid slateblue;
+    /* border: 3px solid slateblue; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+    grid-gap: 20px;
     width: 80%;
     padding: 10px 0;
 }
 
 .card {
-    height: 476px;
     width: 329px;
     justify-self: center;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card_image_container {
+    /* border: 1px solid red; */
+    background-color: #ffffff;
+}
+
+.card_image_container img {
+    width: 100%;
+}
+
+.card_text h2 {
+    text-align: left;
+    font-size: 28px;
+    color: #3A3A3A;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.card_text p {
+    font-size: 24px;
+    color: black;
+    margin: 0;
+}
+
+.card_text i {
+    font-size: 12px;
+    color: #FB8200;
+}
+
+.non_colored {
+    color: lightgray !important;
+}
+
+.card_text .grey_text {
+    color: #787885;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.icon_container {
+    margin-bottom: 10px;
+}
+
+.icon_container span {
+    color: #5E6366;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 
