@@ -196,5 +196,15 @@ button {
     font-weight: 700;
 }
 
+.see_more_container {
+    width: 74%;
+}
+
+.right_text {
+    float: right;
+    color: #E02C6D;
+    font-weight: bold;
+}
+
 
 /* Popular Collection section ends */
