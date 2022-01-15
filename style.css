@@ -5,6 +5,9 @@
 }
 
 
+/* ================================= */
+
+
 /* Animations */
 
 @keyframes move_from_left {
@@ -43,6 +46,9 @@
         transform: translateY(0);
     }
 }
+
+
+/* ================================ */
 
 
 /* Header Section design starts */
@@ -138,6 +144,12 @@ nav ul li a {
 .image_container img {
     height: 414px;
     width: 440px;
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+.image_container img:hover {
+    transform: scale(1.2, 1.2);
 }
 
 button {
@@ -149,7 +161,7 @@ button {
     outline: none;
     border-radius: 20px;
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 33px;
     transition: .3s ease;
 }
 
@@ -368,6 +380,12 @@ p {
 
 .icons i {
     margin: 5px 10px;
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+.icons i:hover {
+    transform: scale(1.5, 1.5);
 }
 
 
@@ -385,6 +403,12 @@ p {
     }
     .container {
         flex-direction: column;
+    }
+    .text_container {
+        order: 2;
+    }
+    .image_container {
+        order: 1;
     }
     .text_container h1 {
         font-size: 25px;
@@ -408,6 +432,7 @@ p {
         border-radius: 20px;
         cursor: pointer;
         margin-top: 37px;
+        font-size: 25px;
     }
     .image_container img {
         height: 339px;
