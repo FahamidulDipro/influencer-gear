@@ -421,7 +421,7 @@ p {
         float: left;
         margin: 10px;
         margin-right: 100px;
-        margin-left: 64px;
+        margin-left: 25px;
     }
     nav ul li {
         border-bottom: 1px solid rgb(112, 111, 111);
@@ -435,3 +435,31 @@ p {
 
 
 /* ==================== */
+
+
+/* Media query for tablets */
+
+@media only screen and (min-width: 769px) and (max-width: 1281px) {
+    .card_container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .text_container h1 {
+        font-size: 32px;
+        font-weight: 700;
+        color: #3A3A3A;
+    }
+    .image_container img {
+        height: 300px;
+        width: 300px;
+    }
+    .card {
+        width: 84%;
+        justify-self: center;
+        /* border: 2px solid black; */
+        padding: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    form {
+        width: 64%;
+    }
+}
