@@ -387,20 +387,49 @@ p {
     .nav_toggler {
         display: block;
         cursor: pointer;
+        margin: 14px;
     }
     nav {
-        background-color: #E02C6D;
+        /* background-color: #E02C6D; */
         width: 100%;
         margin: 20px 0;
+        background-color: #3A3A3A;
+        padding: 20px 0;
     }
     nav ul {
-        display: flex;
+        display: block;
         list-style: none;
-        justify-content: space-between;
+        text-align: center;
         flex-direction: column;
+    }
+    /* .logo p {
+        margin-left: -53px;
+    }
+    .text_container h1 {
+        margin-left: -53px;
+    }
+    .text_container p {
+        margin-left: -53px;
+    }
+    .first_button {
+        margin-left: -53px;
+    } */
+    header {
+        display: inline;
+    }
+    .logo p {
+        float: left;
+        margin: 10px;
+        margin-right: 100px;
+        margin-left: 64px;
+    }
+    nav ul li {
+        border-bottom: 1px solid rgb(112, 111, 111);
+        margin-bottom: 20px;
     }
     nav ul li a {
         color: white;
+        text-align: left;
     }
 }
 
