@@ -5,6 +5,46 @@
 }
 
 
+/* Animations */
+
+@keyframes move_from_left {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes move_from_right {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes move_from_top {
+    0% {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
 /* Header Section design starts */
 
 header {
@@ -65,12 +105,18 @@ nav ul li a {
     padding: 10px;
     margin: 45px;
     /* border: 2px solid black; */
+    animation: move_from_left 700ms forwards;
+    opacity: 0;
+    animation-delay: 500ms;
 }
 
 .text_container h1 {
     font-size: 52px;
     font-weight: 700;
     color: #3A3A3A;
+    animation: move_from_left 500ms forwards;
+    opacity: 0;
+    animation-delay: 500ms;
 }
 
 .text_container p {
@@ -84,6 +130,9 @@ nav ul li a {
     border: 1px solid #F1E4FF;
     border-radius: 50%;
     flex: 2;
+    animation: move_from_right 1000ms forwards;
+    opacity: 0;
+    animation-delay: 1000ms;
 }
 
 .image_container img {
@@ -101,6 +150,11 @@ button {
     border-radius: 20px;
     cursor: pointer;
     margin-top: 10px;
+    transition: .3s ease;
+}
+
+button:hover {
+    background-color: #3A3A3A;
 }
 
 
@@ -149,6 +203,9 @@ button {
     grid-gap: 20px;
     width: 80%;
     padding: 10px 0;
+    animation: move_from_top 2000ms forwards;
+    opacity: 0;
+    animation-delay: 2000ms;
 }
 
 .card {
