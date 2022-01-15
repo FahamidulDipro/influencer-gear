@@ -173,6 +173,15 @@ button:hover {
     flex-wrap: wrap;
 }
 
+.logo_container img {
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+.logo_container img:hover {
+    transform: scale(2, 2);
+}
+
 
 /* Logo section ends */
 
@@ -214,6 +223,13 @@ button:hover {
     /* border: 2px solid black; */
     padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    transition: .3s ease;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: scale(1.1, 1.05);
 }
 
 .card_image_container {
